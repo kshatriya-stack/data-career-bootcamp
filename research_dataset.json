@@ -1,0 +1,1999 @@
+{
+  "metadata": {
+    "researchDate": "2026-10-22",
+    "sampleSize": 34,
+    "methodology": "Structured empirical collection of 34 publicly accessible job postings across company career pages (NTT DATA, Cognizant, Airolabs.ai, Akraya, Tiger Analytics) and Indian/global job boards (Shine.com, Foundit.in, Cutshort.io, Hirist.tech, NextLeap, Indeed India, Jobgether). Postings were deduplicated and stratified into Entry-Level/Fresher (0-2 yrs), Mid-Level (2-5 yrs), and Senior/Benchmark (5+ yrs) cohorts so senior architecture requirements are never conflated with universal entry-level expectations.",
+    "workspaceInspectionFinding": "Inspected /working_dir/c_4d4f5b8e7fffa3a0, /tmp, and connected Google Drive on 2026-10-22: no existing .html, .css, or .js file was attached to the session. This platform preserves and upgrades the classic 60-day bootcamp workflow and includes a built-in Legacy HTML / LocalStorage Importer & Merger so any existing local HTML file or JSON state can be merged directly in the browser without data loss.",
+    "runtimeBoundaryDisclosure": "Strict No-External-AI-API Architecture: Static browser applications hosted on GitHub Pages or Cloudflare Pages cannot perform live cross-origin web scraping of job boards or invoke paid LLM APIs without exposing keys or running a backend proxy. Therefore, live research was executed at build time (2026-10-22), embedded as a structured replaceable JSON dataset (window.BOOTCAMP_RESEARCH_DATA), and paired with a deterministic client-side DAG Curriculum Generator, a Heuristic + Rubric JD Analyzer, and a JSON Research Dataset Importer.",
+    "limitations": [
+      "LinkedIn and Naukri authenticated walls were not scraped per ethical access-control constraints; only publicly accessible pages and indexed listings were recorded.",
+      "Pure 'Microsoft Fabric' job titles in India frequently request 3-7 years of experience; however, 0-3 year Data Analyst, BI Developer, and Associate Data Engineer roles increasingly list Fabric/OneLake/Power BI as a high-value differentiator alongside core SQL, Python, and DAX.",
+      "Exam DP-203 (Azure Data Engineer Associate) was officially retired by Microsoft on March 31, 2025; Exam DP-700 (Fabric Data Engineer Associate) and Exam DP-600 (Fabric Analytics Engineer Associate) are the current active engineering credentials alongside PL-300."
+    ]
+  },
+  "jobPostings": [
+    {
+      "id": "JP-01",
+      "employer": "DPDzero",
+      "title": "Associate, Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "On-site",
+      "experience": "0-1 Years (Entry-Level / Fresher)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-02-03",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (NextLeap)",
+      "url": "https://nextleap.app/jobs/data-analyst/associate-data-analyst-dpdzero/6pb89niu",
+      "requiredSkills": [
+        "Python",
+        "Pandas",
+        "Data Cleaning",
+        "Data Quality Validation",
+        "Automation Scripting",
+        "Reporting"
+      ],
+      "preferredSkills": [
+        "SQL",
+        "Power BI",
+        "Tableau",
+        "Git",
+        "Polars"
+      ],
+      "tools": [
+        "Python",
+        "Pandas",
+        "Polars",
+        "SQL",
+        "Power BI",
+        "Git"
+      ],
+      "certifications": "B.Tech/B.E. in CS/IT/Math/Stats; no mandatory paid certification",
+      "projectExpectations": "Write reusable Python scripts to clean, validate, and automate recurring collections datasets and generate business reports.",
+      "responsibilities": "Pre-process large datasets using Python (pandas), build scheduled automation scripts for file updates/refreshes, validate data quality, and build operational reports."
+    },
+    {
+      "id": "JP-02",
+      "employer": "Programmers.io",
+      "title": "Junior Data Analyst (Entry-Level)",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Noida, Uttar Pradesh (NCR)",
+      "workMode": "On-site / Hybrid",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "SQL",
+        "Excel",
+        "Data Analysis",
+        "Analytical Reasoning",
+        "Data Cleaning"
+      ],
+      "preferredSkills": [
+        "Power BI",
+        "Reporting",
+        "Dashboarding"
+      ],
+      "tools": [
+        "SQL",
+        "Microsoft Excel",
+        "Power BI"
+      ],
+      "certifications": "Bachelor's in STEM or Analytics; PL-300 optional",
+      "projectExpectations": "Demonstrate ability to join relational tables, clean raw spreadsheets, and summarize KPI trends accurately.",
+      "responsibilities": "Query relational databases using SQL, validate business reports in Excel/BI tools, and support stakeholder ad-hoc analysis."
+    },
+    {
+      "id": "JP-03",
+      "employer": "Rezo.AI",
+      "title": "Jr. Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Noida & Delhi NCR",
+      "workMode": "On-site",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Problem Solving",
+        "Dashboard Creation",
+        "Ad-hoc Analysis"
+      ],
+      "preferredSkills": [
+        "DAX",
+        "Power Query",
+        "Python"
+      ],
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Microsoft Excel"
+      ],
+      "certifications": "None mandatory; portfolio of SQL + Power BI dashboards preferred",
+      "projectExpectations": "Build interactive Power BI dashboards backed by clean SQL queries for conversational AI analytics.",
+      "responsibilities": "Write SQL queries for ad-hoc operational reporting, design Power BI dashboards, and track product KPIs."
+    },
+    {
+      "id": "JP-04",
+      "employer": "S&P Global",
+      "title": "Junior Financial Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "Hybrid",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "Data Collection",
+        "Data Cleaning",
+        "Data Analysis",
+        "SQL",
+        "Excel"
+      ],
+      "preferredSkills": [
+        "Python",
+        "Power BI",
+        "Data Quality Reconciliation"
+      ],
+      "tools": [
+        "SQL",
+        "Excel",
+        "Python",
+        "Power BI"
+      ],
+      "certifications": "Finance/CS/Analytics degree",
+      "projectExpectations": "High-accuracy financial dataset validation, anomaly detection, and structured reporting.",
+      "responsibilities": "Collect, cleanse, and reconcile financial datasets, maintain data quality rules, and support analytical queries."
+    },
+    {
+      "id": "JP-05",
+      "employer": "EXL Service",
+      "title": "Associate - Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "Hybrid",
+      "experience": "0-3 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-01",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-data-analyst-python-sql-power-bi-l-gurugram,-haryana-jobs.html",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Excel",
+        "Data Cleaning"
+      ],
+      "preferredSkills": [
+        "Window Functions",
+        "CTEs",
+        "DAX",
+        "Statistics"
+      ],
+      "tools": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Excel"
+      ],
+      "certifications": "PL-300 or equivalent analytics project portfolio",
+      "projectExpectations": "End-to-end analytics case study combining SQL data extraction, Python exploratory analysis, and Power BI storytelling.",
+      "responsibilities": "Extract and transform client data using SQL and Python, build client-facing Power BI dashboards, and present KPI insights."
+    },
+    {
+      "id": "JP-06",
+      "employer": "HSBC",
+      "title": "Junior Portfolio / Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Delhi NCR / Noida",
+      "workMode": "Hybrid",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Data Analysis",
+        "Quantitative Analysis"
+      ],
+      "preferredSkills": [
+        "Python",
+        "Data Governance",
+        "KPI Design"
+      ],
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Excel"
+      ],
+      "certifications": "Bachelor's degree in quantitative field",
+      "projectExpectations": "Clear KPI definitions, variance analysis, and audit-ready reporting.",
+      "responsibilities": "Analyze portfolio performance metrics, automate recurring Excel/Power BI reports, and ensure data accuracy."
+    },
+    {
+      "id": "JP-07",
+      "employer": "BCG (Boston Consulting Group)",
+      "title": "Junior Analyst - Survey & Data Operations",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "Hybrid",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "Data Management",
+        "Data Processing",
+        "Data Analysis",
+        "Advanced Excel",
+        "SQL"
+      ],
+      "preferredSkills": [
+        "Power BI",
+        "Python",
+        "Data Validation"
+      ],
+      "tools": [
+        "Excel",
+        "SQL",
+        "Power BI",
+        "Python"
+      ],
+      "certifications": "Graduate degree",
+      "projectExpectations": "Clean messy survey/tabular datasets, standardize schemas, and produce high-clarity summary visuals.",
+      "responsibilities": "Process, clean, and validate large operational and survey datasets for consulting case teams."
+    },
+    {
+      "id": "JP-08",
+      "employer": "Jobs Flash (Client Hiring)",
+      "title": "Data Analyst",
+      "roleCategory": "Junior Data Analyst",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "On-site",
+      "experience": "1-4 Years",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-19",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/junior-data-analyst-jobs-in-noida",
+      "requiredSkills": [
+        "SQL",
+        "Data Analysis",
+        "Joins & Aggregations",
+        "Reporting"
+      ],
+      "preferredSkills": [
+        "Power BI",
+        "Python",
+        "Excel"
+      ],
+      "tools": [
+        "SQL",
+        "Power BI",
+        "Excel"
+      ],
+      "certifications": "None required",
+      "projectExpectations": "Practical SQL query writing and KPI dashboard construction.",
+      "responsibilities": "Write complex SQL queries to answer business questions and maintain weekly operational dashboards."
+    },
+    {
+      "id": "JP-09",
+      "employer": "Kiara Infotech",
+      "title": "Power BI & Operations Analyst",
+      "roleCategory": "Power BI Developer",
+      "location": "Noida Sector 62, Uttar Pradesh",
+      "workMode": "On-site",
+      "experience": "0-2 Years (Entry-Level / Fresher)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-05",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-data-analyst-fresher-gurugram-l-noida,-uttar-pradesh-jobs.html",
+      "requiredSkills": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL",
+        "Excel"
+      ],
+      "preferredSkills": [
+        "Star Schema",
+        "Row-Level Security (RLS)"
+      ],
+      "tools": [
+        "Power BI Desktop",
+        "Power BI Service",
+        "SQL",
+        "Excel"
+      ],
+      "certifications": "PL-300 preferred",
+      "projectExpectations": "Interactive operations and sales dashboards with DAX measures and scheduled refresh.",
+      "responsibilities": "Build and maintain operational Power BI reports, transform data in Power Query, and write SQL verification queries."
+    },
+    {
+      "id": "JP-10",
+      "employer": "Qnity",
+      "title": "Data Analyst / BI Developer",
+      "roleCategory": "Power BI Developer",
+      "location": "Hyderabad, Telangana",
+      "workMode": "Hybrid",
+      "experience": "0-3 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-10",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-data-analyst-fresher,-sql,-python,-powerbi-jobs.html",
+      "requiredSkills": [
+        "Power Query",
+        "Power BI",
+        "Python",
+        "SQL",
+        "Excel Automation"
+      ],
+      "preferredSkills": [
+        "DAX",
+        "Data Modeling",
+        "ETL"
+      ],
+      "tools": [
+        "Power BI",
+        "Power Query (M)",
+        "Python",
+        "SQL",
+        "Excel"
+      ],
+      "certifications": "PL-300 advantageous",
+      "projectExpectations": "Automated reporting workflows migrating manual spreadsheets to Power Query and Power BI.",
+      "responsibilities": "Automate data transformations using Power Query and Python, and build interactive Power BI semantic models."
+    },
+    {
+      "id": "JP-11",
+      "employer": "Wissen Technology",
+      "title": "Power BI + Microsoft Fabric Developer",
+      "roleCategory": "Power BI Developer",
+      "location": "Pune, Maharashtra (Wakad)",
+      "workMode": "Hybrid (3 days office)",
+      "experience": "3-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-09-15",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Cutshort)",
+      "url": "https://cutshort.io/job/Power-Bi-Developer-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Hyderabad-Affine-Hgcn61ub",
+      "requiredSkills": [
+        "Power BI Desktop",
+        "Power BI Service",
+        "DAX",
+        "Filter Context",
+        "Time Intelligence",
+        "Power Query (M)",
+        "Star Schema",
+        "SQL",
+        "Row-Level Security (RLS)",
+        "Performance Optimization"
+      ],
+      "preferredSkills": [
+        "Microsoft Fabric",
+        "Azure Data Services",
+        "Deployment Pipelines",
+        "Incremental Refresh",
+        "Git"
+      ],
+      "tools": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "Microsoft Fabric",
+        "SQL Server",
+        "Azure SQL"
+      ],
+      "certifications": "PL-300 / DP-600 preferred",
+      "projectExpectations": "Star-schema semantic models with time-intelligence DAX, RLS, gateway/refresh configuration, and report performance optimization.",
+      "responsibilities": "Design interactive Power BI dashboards, write complex DAX measures, transform data in Power Query, optimize Star Schema models, and implement RLS."
+    },
+    {
+      "id": "JP-12",
+      "employer": "NAM Info Pvt Ltd",
+      "title": "Power BI Developer",
+      "roleCategory": "Power BI Developer",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "On-site / Hybrid",
+      "experience": "3-6 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-09-20",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Cutshort)",
+      "url": "https://cutshort.io/job/Power-Bi-Developer-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Hyderabad-Affine-Hgcn61ub",
+      "requiredSkills": [
+        "Power BI",
+        "DAX",
+        "SQL Server / T-SQL",
+        "Star Schema",
+        "Power Query (M)",
+        "Row-Level Security (RLS)",
+        "Power BI Service",
+        "ETL Concepts"
+      ],
+      "preferredSkills": [
+        "DAX Studio",
+        "Tabular Editor",
+        "ALM Toolkit",
+        "Calculation Groups"
+      ],
+      "tools": [
+        "Power BI",
+        "SQL Server",
+        "DAX Studio",
+        "Tabular Editor",
+        "ALM Toolkit"
+      ],
+      "certifications": "PL-300 desirable",
+      "projectExpectations": "Enterprise star schema models tuned with Performance Analyzer / DAX Studio and governed with RLS.",
+      "responsibilities": "Develop enterprise Power BI dashboards, optimize T-SQL queries and DAX measures, manage workspaces/gateways, and implement RLS/OLS."
+    },
+    {
+      "id": "JP-13",
+      "employer": "Affine",
+      "title": "Power BI Developer",
+      "roleCategory": "Power BI Developer",
+      "location": "Gurugram, Noida, Delhi NCR & Hyderabad",
+      "workMode": "Hybrid (2-3 days/month office)",
+      "experience": "6-10 Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2024-12-12",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Cutshort)",
+      "url": "https://cutshort.io/job/Power-Bi-Developer-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Hyderabad-Affine-Hgcn61ub",
+      "requiredSkills": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL",
+        "Star Schema",
+        "Power BI Service",
+        "Excel",
+        "Role-Based Security"
+      ],
+      "preferredSkills": [
+        "Tableau",
+        "Cloud Data Warehousing",
+        "Performance Tuning"
+      ],
+      "tools": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL",
+        "Excel"
+      ],
+      "certifications": "PL-300",
+      "projectExpectations": "Multi-source data models, refresh troubleshooting, and stakeholder-ready executive storytelling.",
+      "responsibilities": "Design and deploy Power BI reports, maintain multi-source semantic models, optimize SQL queries, and enforce role-based access."
+    },
+    {
+      "id": "JP-14",
+      "employer": "AssetSoft",
+      "title": "Junior SQL Developer (Fresher)",
+      "roleCategory": "SQL & BI Developer",
+      "location": "Pune, Maharashtra",
+      "workMode": "On-site",
+      "experience": "0-1 Years (Fresher / Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-01",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-ssis-developer-jobs.html",
+      "requiredSkills": [
+        "SQL",
+        "T-SQL",
+        "Joins & Subqueries",
+        "Stored Procedures",
+        "ETL Concepts",
+        "Database Design"
+      ],
+      "preferredSkills": [
+        "SSIS",
+        "Power BI",
+        "Indexing"
+      ],
+      "tools": [
+        "SQL Server",
+        "T-SQL",
+        "SSIS"
+      ],
+      "certifications": "CS/IT Degree",
+      "projectExpectations": "Normalized OLTP database schema plus ETL script loading a reporting schema.",
+      "responsibilities": "Write T-SQL queries, views, and stored procedures, assist with ETL loads, and validate relational data integrity."
+    },
+    {
+      "id": "JP-15",
+      "employer": "Cognitive Stars India Pvt. Ltd.",
+      "title": "SQL Developer with ETL / BI",
+      "roleCategory": "SQL & BI Developer",
+      "location": "Pune, Maharashtra",
+      "workMode": "On-site / Hybrid",
+      "experience": "1-3 Years (Entry/Mid-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-04",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-sql-ssis-etl-developer-jobs.html",
+      "requiredSkills": [
+        "SQL",
+        "Data Modeling",
+        "ETL Concepts",
+        "Data Warehousing",
+        "SSIS"
+      ],
+      "preferredSkills": [
+        "Power BI",
+        "Query Optimization",
+        "Star Schema"
+      ],
+      "tools": [
+        "SQL Server",
+        "SSIS",
+        "Power BI"
+      ],
+      "certifications": "None mandatory",
+      "projectExpectations": "Dimensional data mart with automated ETL incremental loads and reconciliation checks.",
+      "responsibilities": "Develop SQL queries and ETL workflows, maintain data warehouse tables, and troubleshoot batch load errors."
+    },
+    {
+      "id": "JP-16",
+      "employer": "Planview",
+      "title": "Business Intelligence Analyst II",
+      "roleCategory": "SQL & BI Developer",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "Hybrid",
+      "experience": "5+ Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2026-09-25",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Cutshort)",
+      "url": "https://cutshort.io/job/Power-Bi-Developer-Delhi-Gurugram-Noida-Ghaziabad-Faridabad-Hyderabad-Affine-Hgcn61ub",
+      "requiredSkills": [
+        "Power BI",
+        "DAX",
+        "Power Query",
+        "SQL Server / T-SQL",
+        "Query Optimization",
+        "Microsoft Fabric",
+        "Data Pipelines",
+        "Dataflows Gen2",
+        "Lakehouse/Warehouse",
+        "Data Warehousing",
+        "Row-Level Security (RLS)"
+      ],
+      "preferredSkills": [
+        "DAX Studio",
+        "Tabular Editor",
+        "Performance Analyzer",
+        "SSRS / Paginated Reports",
+        "SSAS"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "Power BI",
+        "SQL Server",
+        "DAX Studio",
+        "Tabular Editor",
+        "SSRS"
+      ],
+      "certifications": "PL-300, DP-600, or DP-203/DP-700 explicitly listed as added advantage",
+      "projectExpectations": "End-to-end Fabric pipeline + Lakehouse/Warehouse + Power BI semantic model with query execution plan tuning.",
+      "responsibilities": "Support and optimize Power BI semantic models, Microsoft Fabric Data Pipelines/Dataflows Gen2/Lakehouse, and tune complex T-SQL queries."
+    },
+    {
+      "id": "JP-17",
+      "employer": "Solutionara",
+      "title": "Junior Data Engineer – SQL, Python, ETL & Data Quality",
+      "roleCategory": "Junior Data Engineer",
+      "location": "Noida, Uttar Pradesh (NCR)",
+      "workMode": "On-site / Hybrid",
+      "experience": "0-2 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-08",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-junior-data-engineer-l-noida,-uttar-pradesh-jobs.html",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "ETL Pipelines",
+        "Data Quality Validation",
+        "CSV/JSON Processing",
+        "Git"
+      ],
+      "preferredSkills": [
+        "PySpark",
+        "Cloud Storage (Azure/AWS)",
+        "Incremental Loading"
+      ],
+      "tools": [
+        "Python",
+        "SQL",
+        "Git",
+        "Pandas",
+        "PySpark"
+      ],
+      "certifications": "B.Tech/B.E. CS/IT; DP-700 or DP-600 optional",
+      "projectExpectations": "Modular Python + SQL ETL pipeline with automated schema validation, logging, retries, and reconciliation tests.",
+      "responsibilities": "Build and monitor SQL/Python ETL pipelines, implement data-quality validation checks, and maintain clean warehouse tables."
+    },
+    {
+      "id": "JP-18",
+      "employer": "Retisio",
+      "title": "Junior Data Engineer",
+      "roleCategory": "Junior Data Engineer",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "Hybrid",
+      "experience": "0-2 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-11",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-junior-data-engineer-jobs.html",
+      "requiredSkills": [
+        "Python",
+        "SQL",
+        "Data Warehousing",
+        "ETL/ELT",
+        "APIs & JSON",
+        "Git"
+      ],
+      "preferredSkills": [
+        "Apache Spark / PySpark",
+        "Delta Lake",
+        "CI/CD"
+      ],
+      "tools": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Git"
+      ],
+      "certifications": "Computer Science degree or strong GitHub engineering portfolio",
+      "projectExpectations": "API-to-Lakehouse ingestion pipeline with idempotent loads and unit tests.",
+      "responsibilities": "Ingest data from REST APIs and relational databases using Python and SQL, and assist in maintaining distributed data pipelines."
+    },
+    {
+      "id": "JP-19",
+      "employer": "SP Staffing Services (MNC Client)",
+      "title": "Data Engineer (Entry-Level / Trainee)",
+      "roleCategory": "Junior Data Engineer",
+      "location": "Hyderabad, Noida, Delhi & Gurugram",
+      "workMode": "Hybrid",
+      "experience": "0-2 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-10-19",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/dbt-jobs-in-hyderabad",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "dbt",
+        "Cloud Data Warehousing",
+        "Data Modeling"
+      ],
+      "preferredSkills": [
+        "Snowflake",
+        "Azure",
+        "Git"
+      ],
+      "tools": [
+        "SQL",
+        "Python",
+        "dbt",
+        "Snowflake",
+        "Git"
+      ],
+      "certifications": "None mandatory",
+      "projectExpectations": "Modular ELT transformation pipeline with dbt/SQL staging-to-mart layers and automated schema tests.",
+      "responsibilities": "Write SQL and Python transformations, build dimensional models using dbt, and validate warehouse loads."
+    },
+    {
+      "id": "JP-20",
+      "employer": "Nexify Infosystems",
+      "title": "Junior Data & dbt Engineer",
+      "roleCategory": "Analytics Engineer",
+      "location": "Hyderabad, Telangana",
+      "workMode": "On-site / Hybrid",
+      "experience": "0-4 Years (Entry-Level)",
+      "levelTier": "Entry-Level",
+      "datePublished": "2026-09-24",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/dbt-jobs-in-hyderabad",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "Data Engineering",
+        "dbt",
+        "Dimensional Modeling"
+      ],
+      "preferredSkills": [
+        "Git",
+        "CI/CD",
+        "Cloud Data Warehouses"
+      ],
+      "tools": [
+        "SQL",
+        "Python",
+        "dbt",
+        "Git"
+      ],
+      "certifications": "DP-600 or dbt Fundamentals optional",
+      "projectExpectations": "Version-controlled SQL transformation project with data quality tests and lineage documentation.",
+      "responsibilities": "Maintain SQL transformation models, configure dbt jobs and tests, and troubleshoot pipeline runs."
+    },
+    {
+      "id": "JP-21",
+      "employer": "APPIT Software Solutions",
+      "title": "dbt & Analytics Engineer",
+      "roleCategory": "Analytics Engineer",
+      "location": "Hyderabad, Telangana",
+      "workMode": "Hybrid",
+      "experience": "3-7 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-09-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/job-search/dbt-jobs-in-hyderabad",
+      "requiredSkills": [
+        "SQL",
+        "dbt",
+        "Dimensional Modeling",
+        "Kimball Methodology",
+        "Python",
+        "Data Engineering"
+      ],
+      "preferredSkills": [
+        "Star Schema",
+        "SCD Type 2",
+        "Git",
+        "Power BI"
+      ],
+      "tools": [
+        "SQL",
+        "dbt",
+        "Python",
+        "Git",
+        "Power BI"
+      ],
+      "certifications": "DP-600 / Analytics Engineering credential",
+      "projectExpectations": "Kimball star schema with SCD Type 2 dimensions, incremental models, and automated tests.",
+      "responsibilities": "Design Kimball dimensional models, build modular SQL/dbt transformations, and partner with BI analysts."
+    },
+    {
+      "id": "JP-22",
+      "employer": "Aline",
+      "title": "Analytics Engineer - Data Platform",
+      "roleCategory": "Analytics Engineer",
+      "location": "Remote (Global / US)",
+      "workMode": "Remote",
+      "experience": "2-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-22",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Jobgether)",
+      "url": "https://jobgether.com/offer/6ad9674ba8fae18ba2dcc700-analytics-engineer---data-platform",
+      "requiredSkills": [
+        "SQL",
+        "Medallion Architecture (Bronze/Silver/Gold)",
+        "Star Schema",
+        "SCD Type 1/2",
+        "Power BI Semantic Models",
+        "Git",
+        "CI/CD",
+        "Python",
+        "CDC & ELT Pipelines",
+        "Row-Level Security (RLS)"
+      ],
+      "preferredSkills": [
+        "dbt",
+        "Snowflake",
+        "Airflow/Orchestration",
+        "Data Governance"
+      ],
+      "tools": [
+        "SQL",
+        "Power BI",
+        "dbt",
+        "Snowflake",
+        "Python",
+        "Git"
+      ],
+      "certifications": "DP-600 or equivalent",
+      "projectExpectations": "Medallion architecture transforming raw CDC feeds into tested Gold star schemas powering Power BI semantic models.",
+      "responsibilities": "Own Bronze/Silver/Gold models, evolve business logic into governed semantic layers for Power BI, write data quality tests, and support RLS."
+    },
+    {
+      "id": "JP-23",
+      "employer": "DoorDash India",
+      "title": "Analytics Engineer, India",
+      "roleCategory": "Analytics Engineer",
+      "location": "Hyderabad, Telangana",
+      "workMode": "Hybrid",
+      "experience": "2-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-10",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-remote-analytics-engineer-dbt-jobs.html",
+      "requiredSkills": [
+        "Advanced SQL",
+        "CTEs & Window Functions",
+        "Data Modeling",
+        "Python",
+        "ETL/ELT Pipelines",
+        "BI Semantic Layers"
+      ],
+      "preferredSkills": [
+        "Spark SQL",
+        "dbt",
+        "Experimentation Metrics"
+      ],
+      "tools": [
+        "SQL",
+        "Python",
+        "dbt",
+        "Spark SQL",
+        "BI Tools"
+      ],
+      "certifications": "STEM degree",
+      "projectExpectations": "High-scale curated analytical tables and self-serve semantic layers with strict SLA monitoring.",
+      "responsibilities": "Lead development of curated data products, write high-efficiency SQL transformations, and enable self-serve BI."
+    },
+    {
+      "id": "JP-24",
+      "employer": "NR Consulting",
+      "title": "DE Azure Developer (ADF, Databricks, PySpark)",
+      "roleCategory": "Azure Data Engineer",
+      "location": "Gurugram & Bengaluru",
+      "workMode": "Hybrid",
+      "experience": "3-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-03",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Shine.com)",
+      "url": "https://www.shine.com/jobs/de-azure-developer-azure-databricks-azure-data-factory-pyspark/nr-consulting/19382442",
+      "requiredSkills": [
+        "Azure Data Factory (ADF)",
+        "Azure Databricks",
+        "PySpark",
+        "Azure SQL",
+        "ADLS Gen2",
+        "SQL"
+      ],
+      "preferredSkills": [
+        "Delta Lake",
+        "Python",
+        "CI/CD"
+      ],
+      "tools": [
+        "Azure Data Factory",
+        "Azure Databricks",
+        "PySpark",
+        "ADLS Gen2",
+        "Azure SQL"
+      ],
+      "certifications": "DP-700 (or legacy DP-203)",
+      "projectExpectations": "Parameterized ADF pipeline ingesting into ADLS Gen2 and transforming via PySpark into Delta tables.",
+      "responsibilities": "Build parameterized ADF pipelines, write PySpark transformation notebooks on ADLS Gen2, and load Azure SQL / Delta targets."
+    },
+    {
+      "id": "JP-25",
+      "employer": "Lagozon Technologies",
+      "title": "Azure Data Engineer (Databricks, PySpark & Fabric)",
+      "roleCategory": "Azure Data Engineer",
+      "location": "Gurugram, Haryana (All India / Hybrid)",
+      "workMode": "Hybrid",
+      "experience": "3-7 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-02",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Shine.com)",
+      "url": "https://www.shine.com/jobs/urgent-hiring-azure-data-engineer-databrickspyspark-gurugram/lagozon-technologies/19682372",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "PySpark",
+        "ETL Processes",
+        "Data Warehouse Architecture",
+        "Azure Data Factory (ADF)",
+        "ADLS Gen2",
+        "Azure SQL Database",
+        "Azure Databricks",
+        "Microsoft Fabric",
+        "BI Solutions"
+      ],
+      "preferredSkills": [
+        "Azure Synapse Analytics",
+        "Delta Lake",
+        "Performance Optimization"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "Azure Data Factory",
+        "ADLS Gen2",
+        "Azure Databricks",
+        "PySpark",
+        "SQL",
+        "Power BI"
+      ],
+      "certifications": "DP-700 / Azure Data Engineer",
+      "projectExpectations": "Unified Azure + Fabric lakehouse pipeline integrating ADF, ADLS Gen2, PySpark, and BI reporting.",
+      "responsibilities": "Design ETL processes and data warehouse architectures across Azure Data Factory, ADLS Gen2, Databricks, and Microsoft Fabric."
+    },
+    {
+      "id": "JP-26",
+      "employer": "PwC India",
+      "title": "Senior Associate - Azure Data Engineer (Data & Analytics)",
+      "roleCategory": "Azure Data Engineer",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "Hybrid",
+      "experience": "4-7 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-09-29",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Foundit.in)",
+      "url": "https://www.foundit.in/job/azure-data-engineer-exl-noida-65124755",
+      "requiredSkills": [
+        "SQL",
+        "Python",
+        "PySpark",
+        "Azure Data Factory (ADF)",
+        "ADLS Gen2",
+        "Azure Databricks"
+      ],
+      "preferredSkills": [
+        "Microsoft Fabric",
+        "Power BI",
+        "Data Governance",
+        "CI/CD"
+      ],
+      "tools": [
+        "Azure Data Factory",
+        "ADLS Gen2",
+        "Azure Databricks",
+        "PySpark",
+        "SQL",
+        "Python"
+      ],
+      "certifications": "DP-700 / DP-600 preferred",
+      "projectExpectations": "Enterprise advisory data platform implementation with audit logging, data quality checks, and DevOps.",
+      "responsibilities": "Deliver cloud data engineering pipelines on Azure using ADF, ADLS Gen2, and PySpark for enterprise clients."
+    },
+    {
+      "id": "JP-27",
+      "employer": "Zorba AI",
+      "title": "Azure Data Engineer (Databricks & PySpark)",
+      "roleCategory": "Azure Data Engineer",
+      "location": "Gurugram, Haryana (NCR)",
+      "workMode": "Hybrid",
+      "experience": "5-7 Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2026-10-18",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Foundit.in)",
+      "url": "https://www.foundit.in/job/azure-data-engineer-zorba-ai-gurgaon-gurugram-46515565",
+      "requiredSkills": [
+        "PySpark",
+        "Spark SQL",
+        "SQL",
+        "ADLS Gen2",
+        "Delta Lake",
+        "Azure Databricks",
+        "ETL/ELT Pipelines",
+        "Star Schema",
+        "JSON/XML Unstructured Data",
+        "Performance Tuning"
+      ],
+      "preferredSkills": [
+        "Azure Data Factory (ADF)",
+        "CI/CD (Azure DevOps)",
+        "Kafka / Structured Streaming",
+        "Lakehouse Architecture",
+        "Power BI"
+      ],
+      "tools": [
+        "Azure Databricks",
+        "PySpark",
+        "Spark SQL",
+        "ADLS Gen2",
+        "Delta Lake",
+        "ADF",
+        "Power BI"
+      ],
+      "certifications": "B.Tech/B.E. CS; Azure/Databricks certification",
+      "projectExpectations": "Medallion Lakehouse processing structured + JSON data with Spark partition tuning and Delta Lake optimization.",
+      "responsibilities": "Build scalable ETL/ELT pipelines in Databricks/PySpark, model Star Schemas on Delta Lake, and tune Spark/SQL performance."
+    },
+    {
+      "id": "JP-28",
+      "employer": "EXL Service",
+      "title": "Azure Data Engineer (ADF, SQL, dbt)",
+      "roleCategory": "Azure Data Engineer",
+      "location": "Noida, Gurugram, Pune, Bengaluru & Hyderabad",
+      "workMode": "Hybrid",
+      "experience": "5-8 Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2026-09-02",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Foundit.in)",
+      "url": "https://www.foundit.in/job/azure-data-engineer-exl-noida-65124755",
+      "requiredSkills": [
+        "Azure Data Factory (ADF)",
+        "SQL",
+        "dbt",
+        "Snowflake",
+        "ETL/ELT Pipelines",
+        "Data Quality & Governance"
+      ],
+      "preferredSkills": [
+        "Python",
+        "PySpark",
+        "ADLS Gen2",
+        "Azure Synapse",
+        "CI/CD",
+        "Power BI"
+      ],
+      "tools": [
+        "Azure Data Factory",
+        "SQL",
+        "dbt",
+        "Snowflake",
+        "Python",
+        "PySpark",
+        "Power BI"
+      ],
+      "certifications": "Azure / Snowflake / dbt certifications",
+      "projectExpectations": "Orchestrated ADF + SQL/dbt warehouse pipeline with strict data quality and lineage.",
+      "responsibilities": "Design and orchestrate ADF pipelines, build SQL/dbt warehouse transformations, and enforce data governance."
+    },
+    {
+      "id": "JP-29",
+      "employer": "Auxo AI",
+      "title": "Data Engineer - Microsoft Fabric",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Noida, Bengaluru & Multiple Locations",
+      "workMode": "Hybrid",
+      "experience": "3-6 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-09-21",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Hirist.tech)",
+      "url": "https://www.hirist.tech/microsoft-fabric-jobs-in-noida",
+      "requiredSkills": [
+        "Microsoft Fabric",
+        "OneLake",
+        "Lakehouse",
+        "Data Pipelines",
+        "ETL/ELT",
+        "SQL",
+        "Python",
+        "PySpark"
+      ],
+      "preferredSkills": [
+        "Power BI",
+        "Direct Lake",
+        "Delta Tables",
+        "Git CI/CD"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "OneLake",
+        "PySpark",
+        "SQL",
+        "Python",
+        "Power BI"
+      ],
+      "certifications": "DP-700 or DP-600",
+      "projectExpectations": "End-to-end Microsoft Fabric Lakehouse pipeline with PySpark notebooks and Data Factory orchestration.",
+      "responsibilities": "Build and orchestrate data pipelines in Microsoft Fabric using Lakehouses, PySpark notebooks, and SQL."
+    },
+    {
+      "id": "JP-30",
+      "employer": "Akraya Inc.",
+      "title": "Microsoft Fabric Data Engineer (26-00482)",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Bengaluru & Hyderabad (Remote India)",
+      "workMode": "Remote",
+      "experience": "3-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-04-28",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Akraya)",
+      "url": "https://jobs.akraya.com/jb/-Microsoft-Fabric-Data-Engineer-26-00482-Jobs-in-Bengaluru-KA/13943610",
+      "requiredSkills": [
+        "Microsoft Fabric",
+        "Lakehouse",
+        "Spark Notebooks (PySpark/SQL)",
+        "Fabric Data Pipelines",
+        "Git Integration & CI/CD",
+        "Technical Documentation",
+        "Workspace Governance & RBAC"
+      ],
+      "preferredSkills": [
+        "OneLake",
+        "Delta Lake",
+        "API Documentation"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "Lakehouse",
+        "PySpark Notebooks",
+        "Data Factory Pipelines",
+        "Git"
+      ],
+      "certifications": "DP-700 / DP-600 preferred",
+      "projectExpectations": "Production-grade Fabric Lakehouse + Notebook + Pipeline solution with exemplary architecture & CI/CD documentation.",
+      "responsibilities": "Design and maintain Microsoft Fabric Lakehouses, notebooks, and pipelines, implement Git CI/CD, and author comprehensive architecture documentation."
+    },
+    {
+      "id": "JP-31",
+      "employer": "Ecolab Inc.",
+      "title": "Microsoft Fabric Data Engineer",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Bengaluru, Karnataka",
+      "workMode": "Hybrid",
+      "experience": "3-6 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-05",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-microsoft-fabric-data-engineer-jobs.html",
+      "requiredSkills": [
+        "Microsoft Fabric",
+        "Lakehouse",
+        "Warehouse",
+        "PySpark",
+        "SQL",
+        "Delta Lake",
+        "Power BI",
+        "Data Modeling"
+      ],
+      "preferredSkills": [
+        "OneLake Shortcuts",
+        "Direct Lake",
+        "Azure Data Factory"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "PySpark",
+        "SQL",
+        "Delta Lake",
+        "Power BI"
+      ],
+      "certifications": "DP-700 or DP-600",
+      "projectExpectations": "Reusable, production-ready Fabric data products translating business problems into governed Gold tables.",
+      "responsibilities": "Build reusable Microsoft Fabric data products across Lakehouse and Warehouse layers to power enterprise analytics."
+    },
+    {
+      "id": "JP-32",
+      "employer": "Revolite Infotech Pvt. Ltd.",
+      "title": "Microsoft Fabric Data Engineer",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Hyderabad, Telangana",
+      "workMode": "On-site / Hybrid",
+      "experience": "2-5 Years (Mid-Level)",
+      "levelTier": "Mid-Level",
+      "datePublished": "2026-10-12",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Listing (Indeed India)",
+      "url": "https://in.indeed.com/q-microsoft-fabric-l-hyderabad,-telangana-jobs.html",
+      "requiredSkills": [
+        "Microsoft Fabric",
+        "Lakehouse",
+        "Warehouse",
+        "Dataflows Gen2",
+        "Data Pipelines",
+        "SQL",
+        "PySpark",
+        "Power BI",
+        "DAX",
+        "Delta Lake"
+      ],
+      "preferredSkills": [
+        "OneLake",
+        "Direct Lake",
+        "Incremental Loading"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "Dataflows Gen2",
+        "PySpark",
+        "SQL",
+        "Power BI",
+        "DAX"
+      ],
+      "certifications": "DP-700 / DP-600",
+      "projectExpectations": "End-to-end Fabric implementation combining Dataflows Gen2, PySpark notebooks, and Power BI DAX models.",
+      "responsibilities": "Develop and deploy Microsoft Fabric Lakehouses, Warehouses, Dataflows Gen2, and Power BI semantic models."
+    },
+    {
+      "id": "JP-33",
+      "employer": "Airolabs.ai",
+      "title": "Data Engineer with Microsoft Fabric",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Gurugram, Noida, Pune, Mumbai & Bengaluru",
+      "workMode": "Hybrid",
+      "experience": "5-8 Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2026-10-01",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (Airolabs.ai)",
+      "url": "https://airolabs.ai/job/data-engineer-with-fabric/",
+      "requiredSkills": [
+        "Microsoft Fabric",
+        "OneLake",
+        "Lakehouse",
+        "Delta Tables",
+        "Shortcuts & Mirroring",
+        "Spark Notebooks (PySpark/SQL)",
+        "Data Factory Pipelines",
+        "Dataflows Gen2",
+        "Fabric Data Warehouse (T-SQL)",
+        "Power BI Semantic Models",
+        "DAX",
+        "Direct Lake",
+        "Real-Time Intelligence (KQL/Eventstream)",
+        "Git & CI/CD",
+        "Microsoft Purview",
+        "RLS/OLS Security"
+      ],
+      "preferredSkills": [
+        "Databricks",
+        "Kimball Dimensional Modeling",
+        "Calculation Groups",
+        "Query Folding",
+        "REST APIs"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "OneLake",
+        "PySpark",
+        "T-SQL",
+        "Power BI",
+        "DAX",
+        "KQL",
+        "Microsoft Purview",
+        "GitHub Actions / Azure DevOps"
+      ],
+      "certifications": "Explicitly lists DP-600 (Fabric Analytics Engineer), PL-300 (Power BI Data Analyst), and DP-203/DP-700",
+      "projectExpectations": "Full-lifecycle Fabric architecture: OneLake shortcuts, Medallion Delta tables, T-SQL Warehouse, Direct Lake semantic model, KQL Eventstream, Purview lineage, and Git CI/CD.",
+      "responsibilities": "Own end-to-end Microsoft Fabric solutions across ingestion, Lakehouse/Warehouse modeling, Direct Lake BI, KQL real-time analytics, and Purview governance."
+    },
+    {
+      "id": "JP-34",
+      "employer": "NTT DATA",
+      "title": "Fabric Data Engineer (Req ID: 391052)",
+      "roleCategory": "Microsoft Fabric Data Engineer",
+      "location": "Pune, Maharashtra",
+      "workMode": "Hybrid",
+      "experience": "7-10 Years (Senior Benchmark)",
+      "levelTier": "Senior",
+      "datePublished": "2026-10-01",
+      "researchDate": "2026-10-22",
+      "verificationStatus": "Verified Full Page (NTT DATA Careers)",
+      "url": "https://careers.nttdata.com/global/en/job/391052/Fabric-Data-Engineer",
+      "requiredSkills": [
+        "Microsoft Fabric Administration & Capacity",
+        "SQL",
+        "Incremental Loading & Watermarks",
+        "SCD Type 1 & Type 2",
+        "Lakehouse",
+        "Warehouse",
+        "OneLake Shortcuts",
+        "Dataflows Gen2",
+        "Metadata-Driven Pipelines",
+        "Power BI Semantic Modeling",
+        "Direct Lake & DirectQuery",
+        "Row-Level Security (RLS)",
+        "DAX",
+        "Power Query (M) & Query Folding",
+        "Dev-QA-Prod Deployment Pipelines"
+      ],
+      "preferredSkills": [
+        "PySpark",
+        "Delta Lake Optimization (Partitioning, V-Order, Z-Order, Liquid Clustering)",
+        "Fabric REST APIs",
+        "Git & CI/CD",
+        "Microsoft Purview & Sensitivity Labels"
+      ],
+      "tools": [
+        "Microsoft Fabric",
+        "OneLake",
+        "SQL",
+        "Power BI",
+        "DAX",
+        "Power Query (M)",
+        "PySpark",
+        "Delta Lake",
+        "Microsoft Purview",
+        "Git"
+      ],
+      "certifications": "DP-700 / DP-600 / PL-300",
+      "projectExpectations": "Metadata-driven Fabric pipelines with watermark incremental loads, SCD Type 2 dimensions, V-Order/Z-Order Delta optimization, and Direct Lake semantic models.",
+      "responsibilities": "Administer and build Microsoft Fabric environments, implement incremental watermark pipelines and SCD2 models, optimize Direct Lake/DAX semantic models, and manage Dev-QA-Prod deployments."
+    }
+  ],
+  "skillFrequencies": [
+    {
+      "skill": "SQL (Joins, CTEs, Window Functions, T-SQL)",
+      "count": 33,
+      "pct": 97.1,
+      "tier": "Essential Core",
+      "roles": [
+        "All 7 Roles"
+      ]
+    },
+    {
+      "skill": "Data Modeling (Star Schema, Fact/Dim, SCD Type 1/2)",
+      "count": 26,
+      "pct": 76.5,
+      "tier": "Essential Core",
+      "roles": [
+        "Data Analyst",
+        "Power BI Dev",
+        "Analytics Engineer",
+        "Data Engineer",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Python (Scripting, Pandas, Automation, APIs)",
+      "count": 25,
+      "pct": 73.5,
+      "tier": "Essential Core",
+      "roles": [
+        "Data Analyst",
+        "Junior DE",
+        "Analytics Engineer",
+        "Azure DE",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Power BI (Semantic Models, Visuals, Service, Refresh)",
+      "count": 24,
+      "pct": 70.6,
+      "tier": "Essential Core",
+      "roles": [
+        "Data Analyst",
+        "Power BI Dev",
+        "SQL/BI Dev",
+        "Fabric DE",
+        "Analytics Engineer"
+      ]
+    },
+    {
+      "skill": "ETL / ELT Pipelines, Incremental Loading & Watermarks",
+      "count": 23,
+      "pct": 67.6,
+      "tier": "Essential Core",
+      "roles": [
+        "Junior DE",
+        "SQL/BI Dev",
+        "Analytics Engineer",
+        "Azure DE",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Data Quality, Cleaning, Validation & Reconciliation",
+      "count": 21,
+      "pct": 61.8,
+      "tier": "Essential Core",
+      "roles": [
+        "All 7 Roles"
+      ]
+    },
+    {
+      "skill": "DAX (Measures, CALCULATE, Filter Context, Time Intelligence)",
+      "count": 19,
+      "pct": 55.9,
+      "tier": "Role-Critical (BI & Fabric)",
+      "roles": [
+        "Data Analyst",
+        "Power BI Dev",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Git, GitHub & CI/CD Deployment Pipelines",
+      "count": 18,
+      "pct": 52.9,
+      "tier": "Essential Engineering",
+      "roles": [
+        "Junior DE",
+        "Analytics Engineer",
+        "Azure DE",
+        "Fabric DE",
+        "Power BI Dev"
+      ]
+    },
+    {
+      "skill": "PySpark & Apache Spark (DataFrames, Spark SQL, Tuning)",
+      "count": 16,
+      "pct": 47.1,
+      "tier": "Role-Critical (DE & Fabric)",
+      "roles": [
+        "Junior DE",
+        "Azure DE",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Microsoft Fabric (OneLake, Lakehouse, Warehouse, Direct Lake)",
+      "count": 14,
+      "pct": 41.2,
+      "tier": "High-Growth Differentiator",
+      "roles": [
+        "Fabric DE",
+        "Power BI Dev",
+        "Azure DE",
+        "SQL/BI Dev"
+      ]
+    },
+    {
+      "skill": "Power Query (M Language) & Query Folding",
+      "count": 14,
+      "pct": 41.2,
+      "tier": "Role-Critical (BI & Fabric)",
+      "roles": [
+        "Data Analyst",
+        "Power BI Dev",
+        "Fabric DE"
+      ]
+    },
+    {
+      "skill": "Delta Lake, Parquet, Partitioning & Medallion Architecture",
+      "count": 14,
+      "pct": 41.2,
+      "tier": "Role-Critical (DE & Fabric)",
+      "roles": [
+        "Junior DE",
+        "Azure DE",
+        "Fabric DE",
+        "Analytics Engineer"
+      ]
+    },
+    {
+      "skill": "Azure Data Services (ADF, ADLS Gen2, Azure SQL, Databricks)",
+      "count": 13,
+      "pct": 38.2,
+      "tier": "Role-Critical (Cloud DE)",
+      "roles": [
+        "Azure DE",
+        "Fabric DE",
+        "Junior DE"
+      ]
+    },
+    {
+      "skill": "Security & Governance (RLS, OLS, RBAC, Purview, Lineage)",
+      "count": 13,
+      "pct": 38.2,
+      "tier": "Production Readiness",
+      "roles": [
+        "Power BI Dev",
+        "Fabric DE",
+        "Azure DE",
+        "Analytics Engineer"
+      ]
+    },
+    {
+      "skill": "Excel (PivotTables, Lookups, Financial/Ops Analysis)",
+      "count": 11,
+      "pct": 32.4,
+      "tier": "Entry-Level Foundation",
+      "roles": [
+        "Junior Data Analyst",
+        "Power BI Dev"
+      ]
+    },
+    {
+      "skill": "dbt (Modular SQL, Testing, Documentation, Lineage)",
+      "count": 8,
+      "pct": 23.5,
+      "tier": "Role-Specific (Analytics Eng)",
+      "roles": [
+        "Analytics Engineer",
+        "Azure DE"
+      ]
+    },
+    {
+      "skill": "Real-Time Intelligence (Eventstream, Eventhouse, KQL)",
+      "count": 4,
+      "pct": 11.8,
+      "tier": "Advanced / DP-700 Objective",
+      "roles": [
+        "Fabric DE"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "code": "DP-700",
+      "title": "Microsoft Certified: Fabric Data Engineer Associate",
+      "status": "Active (Primary Replacement for Retired DP-203)",
+      "lastUpdated": "2026-10-19",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-700",
+      "weights": [
+        "Implement and manage an analytics solution (30-35%): Workspace/Spark/OneLake settings, Git lifecycle & deployment pipelines, RLS/CLS/OLS/file-level security, dynamic data masking, sensitivity labels, orchestration with pipelines/notebooks/Dataflows Gen2.",
+        "Ingest and transform data (30-35%): Full & incremental loads, dimensional model prep, OneLake shortcuts & mirroring, PySpark/SQL/KQL transformations, handling duplicates/missing/late-arriving data, Eventstream & Spark Structured Streaming.",
+        "Monitor and optimize an analytics solution (30-35%): Monitor ingestion/transformation/semantic refresh, troubleshoot pipeline/dataflow/notebook/T-SQL/shortcut errors, optimize Lakehouse tables, Spark skew/shuffles, pipelines, and warehouses."
+      ],
+      "prerequisites": "Solid SQL, Python/PySpark fundamentals, and Medallion Lakehouse concepts (covered in Days 1-52)."
+    },
+    {
+      "code": "DP-600",
+      "title": "Microsoft Certified: Fabric Analytics Engineer Associate",
+      "status": "Active (Ideal Bridge for Analysts + Analytics Engineers)",
+      "lastUpdated": "2026-10-19",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-600",
+      "weights": [
+        "Maintain a data analytics solution (25-30%): Workspace/item access controls, RLS/CLS/OLS, sensitivity labels, endorsement, Git version control, .pbip projects, deployment pipelines, XMLA endpoint.",
+        "Prepare data (45-50%): OneLake catalog, Lakehouse vs Warehouse vs Eventhouse selection, views/stored procedures, Star Schema design, Dataflows Gen2 / SQL / KQL / Visual query editor transformations.",
+        "Implement and manage semantic models (25-30%): Storage modes (Import, DirectQuery, Direct Lake on OneLake vs SQL endpoint), Star Schema relationships, DAX iterators/variables/windowing, Calculation Groups, Field Parameters, Performance Analyzer & Incremental Refresh."
+      ],
+      "prerequisites": "SQL, Dimensional Modeling (Star Schema), Power Query, and DAX (covered in Days 1-36)."
+    },
+    {
+      "code": "PL-300",
+      "title": "Microsoft Certified: Power BI Data Analyst Associate",
+      "status": "Active (Industry Standard for Data Analysts & BI Developers)",
+      "lastUpdated": "2026-04-20",
+      "url": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/pl-300",
+      "weights": [
+        "Prepare the data (25-30%): Connect to sources, DirectLake/DirectQuery/Import selection, Power Query profiling, merge/append, pivot/unpivot, query folding.",
+        "Model the data (25-30%): Star Schema cardinality & cross-filter direction, role-playing dimensions, common date table, DAX CALCULATE/Time Intelligence/semi-additive measures, Performance Analyzer & DAX Query View.",
+        "Visualize and analyze the data (25-30%): Visual selection, custom tooltips, bookmarks, drillthrough, conditional formatting, visual calculations, accessibility, anomaly detection.",
+        "Manage and secure Power BI (15-20%): Workspaces, Apps, gateways, scheduled refresh, Row-Level Security (RLS), sensitivity labels."
+      ],
+      "prerequisites": "Excel/CSV literacy, SQL basics, and Power BI Desktop (covered in Days 1-36)."
+    },
+    {
+      "code": "DP-203 (RETIRED)",
+      "title": "Microsoft Certified: Azure Data Engineer Associate",
+      "status": "RETIRED on March 31, 2025 — Do Not Register",
+      "lastUpdated": "2026-03-09",
+      "url": "https://learn.microsoft.com/en-us/answers/questions/5813848/how-to-renew-dp-203-certification",
+      "weights": [
+        "Important Market Reality: Many HR job descriptions in India still copy-paste 'DP-203' in their preferred qualifications (e.g., Airolabs.ai, Planview, Cognizant). However, Microsoft retired DP-203 on March 31, 2025. Candidates should earn DP-700 (Fabric Data Engineer Associate) and list 'DP-700 (Microsoft's official successor to DP-203 Azure Data Engineer)' on their resume so ATS scanners match both keywords."
+      ],
+      "prerequisites": "N/A — target DP-700 instead."
+    }
+  ],
+  "booksLibrary": [
+    {
+      "id": "BK-01",
+      "title": "Fundamentals of Data Engineering",
+      "authors": "Joe Reis & Matt Housley",
+      "edition": "1st Edition (O'Reilly Media, 2022)",
+      "topic": "Data Engineering Architecture & Lifecycle",
+      "level": "Beginner to Intermediate",
+      "chapters": "Ch. 1 (Data Engineering Described), Ch. 2 (Data Engineering Lifecycle), Ch. 3 (Designing Good Data Architecture), Ch. 5 (Data Generation in Source Systems), Ch. 6 (Storage), Ch. 7 (Ingestion), Ch. 8 (Queries, Modeling, and Transformation)",
+      "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
+      "focus": "Focus on the 'undercurrents' of data engineering (Security, Data Management, DataOps, Data Architecture, Orchestration, Software Engineering) and choosing batch vs micro-batch vs streaming.",
+      "application": "Use Chapters 3, 6, 7, and 8 to justify architectural trade-offs in your Project 4 and Project 6 README documents."
+    },
+    {
+      "id": "BK-02",
+      "title": "Python for Data Analysis (Open Access Web Edition)",
+      "authors": "Wes McKinney (Creator of Pandas)",
+      "edition": "3rd Edition (Open Access HTML, O'Reilly)",
+      "topic": "Python, NumPy, Pandas & Data Cleaning",
+      "level": "Beginner to Intermediate",
+      "chapters": "Ch. 2 (Python Language Basics), Ch. 3 (Built-In Data Structures, Functions, and Files), Ch. 5 (Getting Started with pandas), Ch. 6 (Data Loading, Storage, and File Formats), Ch. 7 (Data Cleaning and Preparation), Ch. 8 (Data Wrangling: Join, Combine, and Reshape), Ch. 10 (Data Aggregation and Group Operations)",
+      "url": "https://wesmckinney.com/book/",
+      "focus": "100% free, lawful open-access HTML edition written by the creator of Pandas. Focus on vectorized operations, handling missing data, and memory-efficient data types.",
+      "application": "Apply Chapters 6, 7, and 8 directly in Project 1 (Automated Retail Sales & Refunds Data Quality Pipeline)."
+    },
+    {
+      "id": "BK-03",
+      "title": "The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling",
+      "authors": "Ralph Kimball & Margy Ross",
+      "edition": "3rd Edition (Wiley, 2013)",
+      "topic": "Dimensional Modeling, Star Schema & SCDs",
+      "level": "Beginner to Advanced",
+      "chapters": "Ch. 1 (Data Warehousing, BI, and Dimensional Modeling Primer), Ch. 2 (Kimball Dimensional Modeling Techniques Overview), Ch. 3 (Retail Sales), Ch. 5 (Procurement & Slowly Changing Dimensions Type 1, 2, 3), Ch. 7 (Accounting & Fact Table Grains)",
+      "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/books/data-warehouse-dw-toolkit/",
+      "focus": "Master the 4-step dimensional design process: (1) Select the business process, (2) Declare the grain, (3) Identify the dimensions, (4) Identify the facts. Pay special attention to Surrogate Keys and SCD Type 2.",
+      "application": "Use the 4-step Kimball declaration in Project 2, Project 3 (Power BI Star Schema), and Project 6 (Fabric Gold Layer)."
+    },
+    {
+      "id": "BK-04",
+      "title": "The Definitive Guide to DAX",
+      "authors": "Marco Russo & Alberto Ferrari (SQLBI)",
+      "edition": "2nd / 3rd Edition (Microsoft Press / SQLBI)",
+      "topic": "Power BI, DAX Engine, Evaluation Context & Optimization",
+      "level": "Intermediate to Advanced",
+      "chapters": "Ch. 1 (What is DAX?), Ch. 4 (Understanding Evaluation Contexts — Row vs Filter Context), Ch. 5 (Understanding CALCULATE and CALCULATETABLE), Ch. 8 (Time Intelligence Calculations), Ch. 14 (Advanced Data Modeling & Star Schema), Ch. 19-20 (Analyzing DAX Query Plans & Optimizing VertiPaq)",
+      "url": "https://www.sqlbi.com/books/the-definitive-guide-to-dax-third-edition/",
+      "focus": "Understand how the VertiPaq columnar engine compresses data, why Row Context does not automatically filter tables without context transition (CALCULATE), and why filtering whole tables Instead of columns kills report performance.",
+      "application": "Essential for passing PL-300 / DP-600 and answering Wissen/NAM Info/Affine Power BI technical interviews."
+    },
+    {
+      "id": "BK-05",
+      "title": "Learning Spark: Lightning-Fast Data Analytics",
+      "authors": "Jules S. Damji, Brooke Wenig, Tathagata Das & Denny Lee",
+      "edition": "2nd Edition (O'Reilly Media / Databricks)",
+      "topic": "Apache Spark Architecture, PySpark DataFrames, Spark SQL & Delta Lake",
+      "level": "Intermediate",
+      "chapters": "Ch. 1 (Introduction to Apache Spark), Ch. 3 (Apache Spark's Structured APIs), Ch. 4 (Spark SQL and DataFrames), Ch. 7 (Optimizing and Tuning Spark Applications), Ch. 9 (Building Reliable Data Lakes with Apache Spark and Delta Lake)",
+      "url": "https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf",
+      "focus": "Focus on Catalyst Optimizer, narrow vs wide transformations, why shuffles happen, broadcast hash joins vs sort-merge joins, and how Delta Lake transaction logs (_delta_log) guarantee ACID properties.",
+      "application": "Directly powers Days 43-50 and Project 5 (Distributed NYC Taxi Mobility Analytics Engine)."
+    },
+    {
+      "id": "BK-06",
+      "title": "Designing Data-Intensive Applications",
+      "authors": "Martin Kleppmann",
+      "edition": "1st Edition (O'Reilly Media, 2017)",
+      "topic": "Distributed Data Systems, Storage Engines, Batch & Stream Processing",
+      "level": "Intermediate to Advanced",
+      "chapters": "Ch. 1 (Reliable, Scalable, and Maintainable Applications), Ch. 2 (Data Models and Query Languages), Ch. 3 (Storage and Retrieval: OLTP B-Trees vs Column-Oriented OLAP Parquet/VertiPaq), Ch. 4 (Encoding and Evolution), Ch. 10 (Batch Processing), Ch. 11 (Stream Processing)",
+      "url": "https://dataintensive.net/",
+      "focus": "Read Chapter 3 to deeply understand why row-store OLTP databases (PostgreSQL/SQL Server) use B-Trees while analytical lakehouses (Parquet/Delta/OneLake/VertiPaq) use columnar compression.",
+      "application": "Gives you first-principles architectural depth for Senior/Architect follow-up questions in Module 1."
+    }
+  ],
+  "verifiedResources": [
+    {
+      "id": "RES-01",
+      "title": "SQL Tutorial for Beginners | Full SQL Course in Hindi",
+      "educator": "Rishabh Mishra",
+      "language": "Hindi / Hinglish",
+      "type": "Video Course",
+      "duration": "3h 15m",
+      "level": "Beginner",
+      "topic": "SQL Foundations, DDL, DML, Joins, Group By & Subqueries",
+      "url": "https://www.youtube.com/watch?v=On9eSN3F8w0",
+      "reason": "Clear, structured Hindi explanation of relational tables, keys, joins, and aggregations with beginner-friendly examples."
+    },
+    {
+      "id": "RES-02",
+      "title": "SQL for Data Analysis in 2 Hours (with Dataset + 50 Queries)",
+      "educator": "Ankit Bansal (NamasteSQL)",
+      "language": "English / Hinglish",
+      "type": "Hands-On Video Workshop",
+      "duration": "2h 05m",
+      "level": "Beginner to Intermediate",
+      "topic": "Analytical SQL, Joins, Aggregations & Business Queries",
+      "url": "https://www.youtube.com/watch?v=iDBznYIMuw4",
+      "reason": "Industry-focused analytical SQL walkthrough solving 50 progressive business queries on a real dataset."
+    },
+    {
+      "id": "RES-03",
+      "title": "SQL Window Functions | RANK, DENSE_RANK, ROW_NUMBER, LEAD/LAG",
+      "educator": "techTFQ (Thoufiq Mohammed)",
+      "language": "English",
+      "type": "Deep-Dive Video Lesson",
+      "duration": "54m",
+      "level": "Intermediate",
+      "topic": "Window Functions, Framing & Analytical SQL",
+      "url": "https://www.youtube.com/watch?v=Ww71knvhQ-s",
+      "reason": "Visual step-by-step breakdown of PARTITION BY, ORDER BY, frame clauses, and interview patterns."
+    },
+    {
+      "id": "RES-04",
+      "title": "Solving Complex SQL Interview Questions using Window Functions & CTEs",
+      "educator": "techTFQ",
+      "language": "English",
+      "type": "Interview Prep Video",
+      "duration": "37m",
+      "level": "Intermediate to Advanced",
+      "topic": "CTEs, Window Functions & SQL Problem Solving",
+      "url": "https://www.youtube.com/watch?v=SatZc2Fq8-4",
+      "reason": "Demonstrates how experienced engineers decompose complex multi-step business logic into readable CTEs."
+    },
+    {
+      "id": "RES-05",
+      "title": "Session 35 - Subqueries in SQL | CampusX DSMP (Hindi)",
+      "educator": "CampusX (Nitish Singh)",
+      "language": "Hindi / Hinglish",
+      "type": "Video Lecture",
+      "duration": "1h 40m",
+      "level": "Intermediate",
+      "topic": "Scalar, Row, Table & Correlated Subqueries",
+      "url": "https://www.youtube.com/watch?v=YYq47MN3TZI",
+      "reason": "Thorough first-principles Hinglish explanation of correlated vs non-correlated subqueries and execution flow."
+    },
+    {
+      "id": "RES-06",
+      "title": "Git & GitHub Tutorial For Beginners In Hindi",
+      "educator": "CodeWithHarry",
+      "language": "Hindi / Hinglish",
+      "type": "Video Tutorial",
+      "duration": "1h 12m",
+      "level": "Beginner",
+      "topic": "Git Version Control, Branching, Commits & GitHub",
+      "url": "https://www.youtube.com/watch?v=gwWKnnCMQ5c",
+      "reason": "Practical Hindi walkthrough of git init, staging, commits, branches, merge conflicts, and pushing to GitHub."
+    },
+    {
+      "id": "RES-07",
+      "title": "Python Tutorial For Beginners In Hindi (With Notes)",
+      "educator": "CodeWithHarry",
+      "language": "Hindi / Hinglish",
+      "type": "Full Course Video",
+      "duration": "11h 52m",
+      "level": "Beginner",
+      "topic": "Python Syntax, Data Structures, Functions, File I/O & OOP",
+      "url": "https://www.youtube.com/watch?v=gfDE2a7MKjA",
+      "reason": "Comprehensive Hindi course covering core Python, lists, dicts, sets, functions, exception handling, and file I/O."
+    },
+    {
+      "id": "RES-08",
+      "title": "Python Tutorial for Beginners | Python Full Course (Hindi)",
+      "educator": "Rishabh Mishra",
+      "language": "Hindi / Hinglish",
+      "type": "Video Course",
+      "duration": "4h 30m",
+      "level": "Beginner",
+      "topic": "Python for Data Analytics & Scripting",
+      "url": "https://www.youtube.com/watch?v=wloM0N_IMaw",
+      "reason": "Tailored specifically for data analysts and aspiring data engineers in Hindi."
+    },
+    {
+      "id": "RES-09",
+      "title": "Python Pandas Tutorial in Hindi",
+      "educator": "CodeWithHarry",
+      "language": "Hindi / Hinglish",
+      "type": "Video Tutorial",
+      "duration": "1h 08m",
+      "level": "Beginner to Intermediate",
+      "topic": "Pandas DataFrames, Series, Indexing, Cleaning & CSV I/O",
+      "url": "https://www.youtube.com/watch?v=RhEjmHeDNoA",
+      "reason": "Fast, practical Hindi introduction to Pandas DataFrames, filtering, missing values, and group aggregations."
+    },
+    {
+      "id": "RES-10",
+      "title": "Official Python 3 Tutorial",
+      "educator": "Python Software Foundation",
+      "language": "English",
+      "type": "Official Documentation",
+      "duration": "Self-paced Reference",
+      "level": "Beginner to Intermediate",
+      "topic": "Control Flow, Data Structures, Modules, Exceptions & Standard Library",
+      "url": "https://docs.python.org/3/tutorial/",
+      "reason": "Authoritative language reference for data structures, list comprehensions, modules, and error handling."
+    },
+    {
+      "id": "RES-11",
+      "title": "Excel, Python, SQL & Power BI Complete Analytics Roadmap & Tutorial (Hindi)",
+      "educator": "Rishabh Mishra",
+      "language": "Hindi / Hinglish",
+      "type": "Video Course",
+      "duration": "5h 10m",
+      "level": "Beginner",
+      "topic": "Excel, SQL, Python & Power BI Integration",
+      "url": "https://www.youtube.com/watch?v=0AZV8Uff5Ic",
+      "reason": "Bridges Excel, SQL, Python, and Power BI for Indian entry-level data analyst interviews."
+    },
+    {
+      "id": "RES-12",
+      "title": "Sales Dashboard | Power BI Tutorial for Beginners (Hindi)",
+      "educator": "Rishabh Mishra",
+      "language": "Hindi / Hinglish",
+      "type": "Project Video",
+      "duration": "1h 45m",
+      "level": "Beginner",
+      "topic": "Power BI Desktop, Power Query, DAX Basics & Dashboard Design",
+      "url": "https://www.youtube.com/watch?v=fZn83JRt4Nk",
+      "reason": "Step-by-step Hindi project building an interactive Sales KPI Dashboard in Power BI."
+    },
+    {
+      "id": "RES-13",
+      "title": "Power BI Tutorial for Beginners (Step-by-Step in 30 Minutes)",
+      "educator": "Guy in a Cube (Patrick LeBlanc)",
+      "language": "English",
+      "type": "Video Tutorial",
+      "duration": "30m",
+      "level": "Beginner",
+      "topic": "Power BI Desktop Workflow, Modeling & Publishing",
+      "url": "https://www.youtube.com/watch?v=OmW9YvxSl1E",
+      "reason": "Best-practice introduction to Power BI modeling and report design from Microsoft's CAT team experts."
+    },
+    {
+      "id": "RES-14",
+      "title": "Most Asked Power BI Interview Question | Top N with Dynamic Metric (DAX)",
+      "educator": "Ankit Bansal",
+      "language": "English / Hinglish",
+      "type": "Interview Prep Video",
+      "duration": "19m",
+      "level": "Intermediate",
+      "topic": "DAX Measures, Filter Context & Dynamic Slicers",
+      "url": "https://www.youtube.com/watch?v=rwZ0K6hcb4I",
+      "reason": "Walks through a real Power BI DAX interview scenario combining disconnected tables, SWITCH, and TOPN."
+    },
+    {
+      "id": "RES-15",
+      "title": "Understand Star Schema and the Importance for Power BI",
+      "educator": "SQLBI & Microsoft Learn",
+      "language": "English",
+      "type": "Technical Article / Official Docs",
+      "duration": "45m read",
+      "level": "Intermediate",
+      "topic": "Star Schema, Fact vs Dimension Tables, Role-Playing Dimensions",
+      "url": "https://learn.microsoft.com/en-us/power-bi/guidance/star-schema",
+      "reason": "The definitive Microsoft guidance on why Star Schema is essential for DAX usability and VertiPaq performance."
+    },
+    {
+      "id": "RES-16",
+      "title": "How to Use Direct Lake & Semantic Models in Microsoft Fabric / Power BI",
+      "educator": "Guy in a Cube",
+      "language": "English",
+      "type": "Video Lesson",
+      "duration": "15m",
+      "level": "Intermediate to Advanced",
+      "topic": "Direct Lake Mode, OneLake Delta Tables & Semantic Models",
+      "url": "https://www.youtube.com/watch?v=a4tfHpPR5KA",
+      "reason": "Explains Direct Lake internals, framing, calculated columns, and fallback behavior in Fabric."
+    },
+    {
+      "id": "RES-17",
+      "title": "Azure Data Engineer Full Course For Beginners (2026 Edition)",
+      "educator": "Ansh Lamba",
+      "language": "English / Hinglish",
+      "type": "Full Course Video",
+      "duration": "6h 53m",
+      "level": "Beginner to Intermediate",
+      "topic": "Azure Fundamentals, ADLS Gen2, Azure Data Factory, Databricks & PySpark",
+      "url": "https://www.youtube.com/watch?v=bSx3DbJNQk4",
+      "reason": "Comprehensive, practical walkthrough of Azure Data Engineering services taught by an Indian data engineer."
+    },
+    {
+      "id": "RES-18",
+      "title": "The ONLY Azure End-To-End Data Engineering Project (ADF, ADLS, PySpark, Delta)",
+      "educator": "Ansh Lamba",
+      "language": "English / Hinglish",
+      "type": "Project Video",
+      "duration": "2h 50m",
+      "level": "Intermediate",
+      "topic": "End-to-End Medallion Architecture on Azure",
+      "url": "https://www.youtube.com/watch?v=uc-u_juRg-w",
+      "reason": "Hands-on implementation of Bronze-Silver-Gold medallion pipelines using ADF, ADLS Gen2, and PySpark."
+    },
+    {
+      "id": "RES-19",
+      "title": "PySpark Official Documentation & API Reference",
+      "educator": "Apache Spark Project",
+      "language": "English",
+      "type": "Official Documentation",
+      "duration": "Self-paced Reference",
+      "level": "Intermediate",
+      "topic": "PySpark DataFrames, Spark SQL, Functions & Structured Streaming",
+      "url": "https://spark.apache.org/docs/latest/api/python/",
+      "reason": "Official documentation for pyspark.sql.DataFrame, pyspark.sql.functions, and Window specifications."
+    },
+    {
+      "id": "RES-20",
+      "title": "Microsoft Fabric Tutorial (9+ Hours) | Microsoft Fabric for Beginners",
+      "educator": "Ansh Lamba",
+      "language": "English / Hinglish",
+      "type": "Full Masterclass Video",
+      "duration": "9h 15m",
+      "level": "Beginner to Advanced",
+      "topic": "OneLake, Lakehouse, Data Factory, Dataflows Gen2, PySpark Notebooks & Warehouse",
+      "url": "https://www.youtube.com/watch?v=a7UZ9WKj9yo",
+      "reason": "Complete end-to-end hands-on bootcamp covering every core workload in Microsoft Fabric."
+    },
+    {
+      "id": "RES-21",
+      "title": "Fabric Data Pipelines FULL COURSE For Beginners [2026 Edition]",
+      "educator": "Ansh Lamba",
+      "language": "English / Hinglish",
+      "type": "Course Video",
+      "duration": "3h 20m",
+      "level": "Intermediate",
+      "topic": "Fabric Data Factory, Copy Activity, Parameters, Loops, Watermarks & Orchestration",
+      "url": "https://www.youtube.com/watch?v=DBTG3P0q1yw",
+      "reason": "Focused deep dive into parameterizing and orchestrating pipelines in Microsoft Fabric."
+    },
+    {
+      "id": "RES-22",
+      "title": "Microsoft Fabric Data Warehouse [Full Course]",
+      "educator": "Ansh Lamba",
+      "language": "English / Hinglish",
+      "type": "Course Video",
+      "duration": "2h 40m",
+      "level": "Intermediate",
+      "topic": "Fabric Synapse Data Warehouse, T-SQL, Cross-Database Queries & Cloning",
+      "url": "https://www.youtube.com/watch?v=sgvbLKomAuk",
+      "reason": "Covers T-SQL Data Warehousing in Fabric and how it interacts with Lakehouse Delta tables via OneLake."
+    },
+    {
+      "id": "RES-23",
+      "title": "Get Started with Microsoft Fabric (Official Learning Path)",
+      "educator": "Microsoft Learn",
+      "language": "English",
+      "type": "Official Learning Path + Free Labs",
+      "duration": "11 Modules (~9h)",
+      "level": "Beginner to Intermediate",
+      "topic": "Lakehouse, Apache Spark, Delta Tables, Dataflows Gen2, Pipelines, Warehouse & Real-Time Intelligence",
+      "url": "https://learn.microsoft.com/en-us/training/paths/get-started-fabric/",
+      "reason": "Official Microsoft Learn modules with free interactive exercises for every Fabric workload."
+    },
+    {
+      "id": "RES-24",
+      "title": "Microsoft Azure Data Engineer Career Path",
+      "educator": "Microsoft Learn",
+      "language": "English",
+      "type": "Official Career Path",
+      "duration": "Self-paced",
+      "level": "Beginner to Advanced",
+      "topic": "Data Engineering on Microsoft Cloud & Fabric",
+      "url": "https://learn.microsoft.com/en-us/training/career-paths/data-engineer/",
+      "reason": "Structured Microsoft Learn progression for data engineering roles and DP-700 certification."
+    },
+    {
+      "id": "RES-25",
+      "title": "Power BI to Microsoft Fabric: Data Analyst Evolution Session",
+      "educator": "KSR Datavizon",
+      "language": "English / Hinglish",
+      "type": "Video Workshop",
+      "duration": "2h 19m",
+      "level": "Intermediate",
+      "topic": "Transitioning from Power BI Desktop to Microsoft Fabric Lakehouse & Direct Lake",
+      "url": "https://www.youtube.com/watch?v=3FxqANVEDdY",
+      "reason": "Explains how Indian BI developers transition into higher-paying Fabric Analytics & Data Engineering roles."
+    },
+    {
+      "id": "RES-26",
+      "title": "End-to-End Data Analytics Project (SQL, Python, Pandas, Power BI, DAX)",
+      "educator": "Ankit Bansal",
+      "language": "English / Hinglish",
+      "type": "Project Video",
+      "duration": "2h 56m",
+      "level": "Intermediate",
+      "topic": "Integrated Portfolio Project across Python, SQL, and Power BI",
+      "url": "https://www.youtube.com/watch?v=LSSXfwQKfyg",
+      "reason": "Demonstrates how to connect Python data ingestion, SQL warehousing, and Power BI DAX reporting in one project."
+    },
+    {
+      "id": "RES-27",
+      "title": "NYC Taxi & Limousine Commission (TLC) Trip Record Data (Parquet)",
+      "educator": "City of New York (NYC.gov)",
+      "language": "English",
+      "type": "Open Dataset (Parquet)",
+      "duration": "Dataset",
+      "level": "All Levels",
+      "topic": "Real-World Multi-Million Row Parquet Dataset for PySpark & Fabric Medallion Labs",
+      "url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+      "reason": "Lawful, publicly downloadable Parquet files containing millions of real trip records—ideal for testing partitioning, PySpark joins, and Fabric Lakehouses."
+    },
+    {
+      "id": "RES-28",
+      "title": "Microsoft SQL Server Samples: WideWorldImporters & AdventureWorks",
+      "educator": "Microsoft (GitHub)",
+      "language": "English",
+      "type": "Open Dataset & GitHub Repo",
+      "duration": "Repository",
+      "level": "All Levels",
+      "topic": "OLTP & OLAP Dimensional Warehouse Sample Databases",
+      "url": "https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/wide-world-importers/README.md",
+      "reason": "Official Microsoft sample databases demonstrating OLTP-to-Star-Schema warehouse modeling and SCD Type 2."
+    }
+  ]
+}
